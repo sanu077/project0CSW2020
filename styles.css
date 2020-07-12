@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+
+.nav{
+    height: 60px;
+    background-color: cornflowerblue;
+}
+
+.barracima{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    padding: 20px 15px;
+}
+    .barracima > div {
+        padding-right: 15px;
+    }
+
+.main{
+    display: block;
+    
+}
+.bloco{
+    height: 140px;
+    background-color: darkcyan;
+}
+.logo{
+    display: block;
+    margin: auto;
+    background-color: darkkhaki;
+}
+.searchbar{
+    margin-top: 30px;
+}
+.barra{
+
+}
+.RNNXgb {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}

@@ -5,7 +5,7 @@ body{
 
 .nav{
     height: 60px;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 
 .barracima{
@@ -21,16 +21,20 @@ body{
 
 .main{
     display: block;
-    
+
 }
 .bloco{
     height: 140px;
-    background-color: darkcyan;
+   /* background-color: darkcyan; */
 }
 .logo{
     display: block;
     margin: auto;
-    background-color: darkkhaki;
+  /*  background-color: darkkhaki; */
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    text-align: -webkit-left;
+    background-position: initial;
 }
 .searchbar{
     margin-top: 30px;
@@ -74,4 +78,12 @@ body{
 .botstyle:hover{
     border: 1px solid rgb(170, 170, 170);
     color: black;
+}
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 60px;
+    white-space: nowrap;
 }

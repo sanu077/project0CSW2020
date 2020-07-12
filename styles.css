@@ -53,6 +53,21 @@ body{
     margin: 0 auto;
     width: 482px;
 }
+.RNNXgb:hover {
+    
+    border: 1px solid #dfe1e5;
+    box-shadow: initial;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+}
+.RNNXgb:focus {
+    border: 1px solid #dfe1e5;
+    box-shadow: initial;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+}
 .botoes {
     margin-top: 20px;
     display: block;
